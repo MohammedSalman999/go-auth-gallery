@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="background">
+      <form method="post" class="form-container">
+        <div class="form-group">
+          <label for="username" class="form-label">Username</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            class="form-input"
+            placeholder="Your username"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="password" class="form-label">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            class="form-input"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="firstname" class="form-label">First Name</label>
+          <input
+            type="text"
+            id="firstname"
+            name="firstname"
+            class="form-input"
+            placeholder="Your first name"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="lastname" class="form-label">Last Name</label>
+          <input
+            type="text"
+            id="lastname"
+            name="lastname"
+            class="form-input"
+            placeholder="Your last name"
+            required
+          />
+        </div>
+        <button type="submit" class="form-button">Submit</button>
+        <br /><br />
+        <div class="form-group">
+          <p class="form-label">
+            Already have an Account?
+            <a href="/login" class="form-link">Login</a>
+          </p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
